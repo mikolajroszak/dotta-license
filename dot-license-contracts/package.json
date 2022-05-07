@@ -17,7 +17,9 @@
     "testrpc": "ganache-cli --networkId 50",
     "testwithrpc": "concurrently \"npm run testrpc\" \"npm run test\"",
     "travis": "npm run test",
-    "pretravis": "rm -rf build/contracts"
+    "pretravis": "rm -rf build/contracts",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -67,6 +69,8 @@
     "solium-plugin-zeppelin": "^0.0.2",
     "truffle-hdwallet-provider": "^0.0.3",
     "tslint": "^4.5.1",
-    "tslint-config-0xproject": "^0.0.2"
-  }
+    "tslint-config-0xproject": "^0.0.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
