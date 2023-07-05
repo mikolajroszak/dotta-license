@@ -4,7 +4,9 @@
   "description": "CLI tools for interacting with cryptokitties",
   "main": "cryptokitties.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": ">=8"
@@ -23,9 +25,11 @@
     "truffle-hdwallet-provider": "^0.0.3",
     "web3": "1.0.0-beta.30",
     "web3-provider-engine": "^13.6.5",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@ledgerhq/hw-transport-node-hid": "^4.2.0"
-  }
+  },
+  "snyk": true
 }
