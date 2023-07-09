@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > extend:
+        patched: '2023-07-09T02:56:41.204Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > extend
+  SNYK-JS-LODASH-567746:
+    - web3-provider-engine > eth-block-tracker > async-eventemitter > async > lodash:
+        patched: '2023-07-09T02:56:41.204Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-provider-engine > eth-block-tracker > async-eventemitter > async
+          > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2023-07-09T02:56:41.204Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          async-eventemitter > async > lodash
+  'npm:stringstream:20180511':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > stringstream:
+        patched: '2023-07-09T02:56:41.204Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > stringstream
