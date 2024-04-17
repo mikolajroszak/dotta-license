@@ -23,6 +23,10 @@ patch:
         path: >-
           truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
           async-eventemitter > async > lodash
+    - web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2024-04-17T19:35:35.769Z'
+        id: SNYK-JS-LODASH-567746
+        path: web3-provider-engine > ethereumjs-block > async > lodash
   'npm:stringstream:20180511':
     - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > stringstream:
         patched: '2023-07-27T18:15:09.366Z'
