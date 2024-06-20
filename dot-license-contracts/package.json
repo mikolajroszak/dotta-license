@@ -65,8 +65,8 @@
     "solium": "^1.1.5",
     "solium-plugin-dotta": "^0.0.2",
     "solium-plugin-zeppelin": "^0.0.2",
-    "truffle-hdwallet-provider": "^0.0.3",
-    "tslint": "^4.5.1",
+    "truffle-hdwallet-provider": "^1.0.0",
+    "tslint": "^5.16.0",
     "tslint-config-0xproject": "^0.0.2"
   }
 }
