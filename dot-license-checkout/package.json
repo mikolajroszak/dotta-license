@@ -22,7 +22,7 @@
     "classnames": "^2.2.5",
     "dot-prop-immutable": "^1.4.0",
     "history": "^4.7.2",
-    "karma": "^2.0.0",
+    "karma": "^5.0.8",
     "karma-mocha-reporter": "^2.2.5",
     "ladda": "^1.0.6",
     "lodash": "^4.17.5",
